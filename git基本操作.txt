@@ -1,3 +1,11 @@
+1，下载git，https://git-scm.com/
+2，git --version,正常输出版本号就表示git安装成功。
+如何生成ssh公钥
+1：输入命令：ssh-keygen -t rsa -C "1534147975@qq.com"     (后面加注册邮箱，三次回车之后即可生成，不填密码)
+2：cat ~/.ssh/id_rsa.pub         (查看公钥，复制到github上)
+3：在github上复制你想拉下来的项目链接，例如：https://github.com/since123/necessary-documentation.git
+输入命令：git clone https://github.com/since123/necessary-documentation.git
+git操作见另一个文件：git基本操作
 提交改动(当前分支或者master)
 git add .
 git commit -m 'inform'

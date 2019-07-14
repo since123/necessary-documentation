@@ -7,12 +7,14 @@ vue-cli: 用户生成Vue工程模板。（帮你快速开始一个vue的项目，也就是给你一套vue的结
 网址：http://nodejs.cn/download/
 2，输入node -v ,如果输出版本号则安装成功。
 3，输入npm -v ,检测npm是否安装成功。（node自带npm，所以安装成功了node，npm就已然成功）
-4，下载git，https://git-scm.com/
-5，git --version,正常输出版本号就表示git安装成功。
-二：
-如何生成ssh公钥
-1：输入命令：ssh-keygen -t rsa -C "1534147975@qq.com"     (后面加注册邮箱，三次回车之后即可生成，不填密码)
-2：cat ~/.ssh/id_rsa.pub         (查看公钥，复制到github上)
-3：在github上复制你想拉下来的项目链接，例如：https://github.com/since123/necessary-documentation.git
-输入命令：git clone https://github.com/since123/necessary-documentation.git
-git操作见另一个文件：git基本操作
+4，命令行工具：
+//全局安装vue-cli
+npm install  --global vue-cli
+//创建一个基于webpack模板的新项目
+vue init webpack myproject
+//安装依赖
+cd myproject
+npm install
+npm run dev
+
+
