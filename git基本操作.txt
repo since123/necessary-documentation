@@ -1,0 +1,8 @@
+提交改动(当前分支或者master)
+git add .
+git commit -m 'inform'
+git push
+在分支合并提交到master上(切换分支checkout,合并分支merge)
+git checkout master
+git merge origin/index-swiper
+git push

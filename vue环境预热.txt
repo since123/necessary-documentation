@@ -1,0 +1,18 @@
+npm: Nodejs下的包管理器。
+webpack: 它主要的用途是通过CommonJS的语法把所有浏览器端需要发布的静态资源做相应的准备，比如资源的合并和打包。
+vue-cli: 用户生成Vue工程模板。（帮你快速开始一个vue的项目，也就是给你一套vue的结构，包含基础的依赖库，只需要 npm install就可以安装）
+开始：
+一：
+1，下载node.js。
+网址：http://nodejs.cn/download/
+2，输入node -v ,如果输出版本号则安装成功。
+3，输入npm -v ,检测npm是否安装成功。（node自带npm，所以安装成功了node，npm就已然成功）
+4，下载git，https://git-scm.com/
+5，git --version,正常输出版本号就表示git安装成功。
+二：
+如何生成ssh公钥
+1：输入命令：ssh-keygen -t rsa -C "1534147975@qq.com"     (后面加注册邮箱，三次回车之后即可生成，不填密码)
+2：cat ~/.ssh/id_rsa.pub         (查看公钥，复制到github上)
+3：在github上复制你想拉下来的项目链接，例如：https://github.com/since123/necessary-documentation.git
+输入命令：git clone https://github.com/since123/necessary-documentation.git
+git操作见另一个文件：git基本操作
